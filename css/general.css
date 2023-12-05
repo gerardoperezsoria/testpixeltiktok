@@ -1,0 +1,286 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+body,
+html {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh;
+  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+}
+
+video {
+  min-width: 100%;
+  min-height: 50vh;
+  z-index: 1;
+}
+
+.bg-portada {
+
+  background-image: url(../images/background22.svg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.bg-portada33 {
+
+  background-image: url(../images/background33.svg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.bg-portada44 {
+
+  background-image: url(../images/background44.svg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.bg-portada55 {
+
+  background-image: url(../images/background55.svg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.bg-portada66 {
+
+  background-image: url(../images/background66.svg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.bg-portada77 {
+
+  background-image: url(../images/background77.svg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.bg-img {
+
+  /* background-image: url(../images/fondowebv2.png); */
+
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.bg-image-section {
+  /* background-image: url(../images/fondowebv2.png); */
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 30%;
+  position: relative;
+}
+
+
+
+.parallax {
+  /* The image used */
+  background-image: url(../images/background1.svg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url(../images/background22.svg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax33 {
+  /* The image used */
+  background-image: url(../images/background33.svg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax44 {
+  /* The image used */
+  background-image: url(../images/background44.svg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax55 {
+  /* The image used */
+  background-image: url(../images/background55.svg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax66 {
+  /* The image used */
+  background-image: url(../images/background66.svg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax77 {
+  /* The image used */
+  background-image: url(../images/background77.svg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container {
+  height: 100vh;
+  position: relative;
+  /* border: 3px solid green;  */
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.centrar-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondonosotros {
+
+  background-image: url(../images/background22.svg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 100% 30%;
+
+  position: relative;
+}
+
+.containeriframe {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  border: none;
+}
+
+.centervertical{
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

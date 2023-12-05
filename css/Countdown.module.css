@@ -1,0 +1,35 @@
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .time {
+    display: flex;
+    align-items: center;
+  }
+  
+  .unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .value {
+    font-size: 2rem;
+  }
+  
+  .label {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .message {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
